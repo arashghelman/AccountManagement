@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Web/AccountManagement.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj",
+        "projectName": "AccountManagement.Application",
+        "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj",
+        "packagesPath": "/Users/arashghelman/.nuget/packages/",
+        "outputPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arashghelman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/AccountManagement.Domain.csproj": {
+                "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/AccountManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/AccountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/AccountManagement.Domain.csproj",
+        "projectName": "AccountManagement.Domain",
+        "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/AccountManagement.Domain.csproj",
+        "packagesPath": "/Users/arashghelman/.nuget/packages/",
+        "outputPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arashghelman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj",
+        "projectName": "AccountManagement.Infrastructure",
+        "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj",
+        "packagesPath": "/Users/arashghelman/.nuget/packages/",
+        "outputPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arashghelman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj": {
+                "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Web/AccountManagement.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Web/AccountManagement.Web.csproj",
+        "projectName": "AccountManagement.Web",
+        "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Web/AccountManagement.Web.csproj",
+        "packagesPath": "/Users/arashghelman/.nuget/packages/",
+        "outputPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arashghelman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj": {
+                "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Application/AccountManagement.Application.csproj"
+              },
+              "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj": {
+                "projectPath": "/Users/arashghelman/Projects/AccountManagement/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

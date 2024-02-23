@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  account-management-web:
+    image: account-management-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"

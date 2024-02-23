@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dT3u4G6IHBi2xNx0iQ1eyH93tWmKAgcctjFlMNkEqAU=",
+  "Source": "AccountManagement.Web",
+  "BasePath": "_content/AccountManagement.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
